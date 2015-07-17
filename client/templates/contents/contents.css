@@ -1,0 +1,32 @@
+/*****************************************************************************/
+/* Contents: Style */
+/*****************************************************************************/
+.contents {
+	padding:5px;
+	font-size:14px;
+	padding-left:20px;
+	padding-right:10px;
+}
+#dr {
+	clear:both;
+}
+#logo {
+	float:right;
+	width:205px;
+	height:180px;
+	background-color:#333;
+	color:#FFF;
+	font-size:14px;
+}
+#slogan {
+	float:left;
+	font:Verdana, Geneva, sans-serif;
+	color:#DF0000;
+	width:80%;
+}
+p {
+	font:Verdana, Geneva, sans-serif bolder;
+	font-size:16px;
+	color:#333;
+}
+

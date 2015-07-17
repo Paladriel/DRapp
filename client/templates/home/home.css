@@ -1,0 +1,28 @@
+/*****************************************************************************/
+/* Home: Style */
+/*****************************************************************************/
+.home {
+	width: 100%;
+	height: 100%;
+}
+#columna1, #columna2 {   
+	padding-bottom: 32767px;
+	margin-bottom: -32767px;
+	float: left;
+}
+#columna1 {
+	background-color: #004;
+	width:20%;
+}
+#columna2{
+	background-color: #DDD;
+	width:80%;
+}
+#contenedor{
+	overflow: hidden;
+	width:100%;
+	margin-top:60px;
+	background: #CCC;
+	/*Tamaño puede variar*/
+	min-height:599px;
+}

@@ -1,0 +1,144 @@
+/*****************************************************************************/
+/* Footer: Style */
+/*****************************************************************************/
+.footer {
+	position: relative;
+	bottom: 0px;
+	right:0px;
+	width: 100%;
+	height: 100px;
+	background-color: #123456;
+	color:#fff;
+	font-size: 12px;
+	z-index: 999;
+}
+/* Compatibilidad de navegadores, disable text select */
+*{
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div, a, ul, li, menu, nav {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+
+}
+menu, nav {
+	display: block;
+}
+ul {
+	list-style: none;
+}
+.clearfix {
+	clear: both;
+}
+.wrap2 {
+	width: 99%;
+	margin: 5px auto;
+
+}
+nav2 {
+	background: -webkit-gradient (linear, center top, center bottom, from(#050), to(#DF0000));
+	border-radius: 6px;
+	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.4);
+	padding: 0 10px;
+	position: relative;
+}
+#abi{
+
+		/*este es el codigo para multiples columnas*/
+	column-count:3;
+	-moz-column-count:3;
+	-webkit-column-count:3;
+	-o-column-count:3;
+	
+	/*este es el codigo para separar columnas*/
+	column-gap:30px;
+	-moz-column-gap:30px;
+	-webkit-column-gap:30px;
+
+	column-rule: 4px dotted red;
+	-moz-column-rule: 8px ridge red;
+	-o-column-rule: 4px solid red;
+	-webkit-column-rule: 4px solid red;
+	
+	/* grosor, estilo, color, la propiedad rule
+	nos permite intercalar lineas separadoras
+	puede ser solid, dotted, dashed, double, 
+	groove, ridge, inset, outset*/
+
+}
+
+.menu2 li {
+	float: right;
+	position: relative;
+}
+
+.menu2 li a {
+	color: #CCC;
+	display: block;
+	font-size: 22px;
+	line-height: 20px;
+	padding: 6px 12px;
+	margin: 8px 8px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+/* Dropdown styles */
+.menu2 ul {
+	position: absolute;
+	left: -9999px;
+	list-style: none;
+	opacity: 0;
+	transition: opacity 1s ease;
+}
+
+.menu2 ul li {
+	float: none;
+}
+
+.menu2 ul a {
+	white-space: nowrap;
+}
+
+/* Displays the dropdown on hover and moves back into position */
+.menu2 li:hover ul {
+	background: rgba(255,255,255,0.7);
+	border-radius: 0 0 6px 6px;
+	box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);
+	left: 5px;
+	opacity: 1;	
+}
+
+/* Persistant Hover State */
+.menu2 li:hover a {
+	background: -webkit-gradient(linear, center top, center bottom, from(#666), to(#CCC));
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+	color: #333;	
+	font:bolder;
+}
+
+.menu2 li:hover ul a {
+	background: none;
+	border-radius: 0;
+	box-shadow: none;
+	color: #444;
+}
+
+.menu2 li:hover ul li a:hover {
+	background: -webkit-gradient(linear, center top, center bottom, from(#666), to(#CCC));
+	border-radius: 12px;
+	box-shadow: inset 0px 0px 4px 2px rgba(0,0,0,0.3);
+	color: #333;
+	font-style:italic;
+	font:bolder;
+}
